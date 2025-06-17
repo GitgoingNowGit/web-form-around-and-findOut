@@ -1,13 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+<SignupForm />
 </template>
 
 <script>
+import SignupForm from './Components/SignupForm.vue'
 
 export default {
   name: 'App',
   components: {
-    // You can register components here if needed
+    SignupForm
   }
 }
 </script>
@@ -20,5 +21,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+body{
+  background-color: #f0f0f0;
+  margin: 0;
 }
 </style>
